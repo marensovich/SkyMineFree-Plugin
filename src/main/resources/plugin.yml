@@ -1,0 +1,11 @@
+name: SkyMineFree
+version: '1.0-SNAPSHOT'
+main: org.k0rv1nes.SkyMineFree.SkyMineFree
+authors: [ k0rv1nes ]
+website: https://skymine.fun
+api-version: '1.16'
+depend:
+  - CommandAPI
+commands:
+  free:
+    usage: /free

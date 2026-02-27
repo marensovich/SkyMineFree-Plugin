@@ -1,0 +1,14 @@
+reward-commands:
+  - points give %player% 5000
+  - lp user %player% parent add adept
+
+messages:
+  only-player-execute: "§x§f§1§0§0§0§0▶ &сКоманда доступна только игрокам"
+  already-received: "§x§f§1§0§0§0§0▶ &fПодарок уже был получен ранее!"
+  ip-already-received: "§x§f§1§0§0§0§0▶ &fПодарок уже был получен с вашего IP адреса!"
+  reward:
+    - "§f"
+    - "§x§0§0§c§8§f§f▶ §fПодарок активирован! Вы получили:"
+    - "§x§0§0§c§8§f§f  * §f5,000 франков"
+    - "§x§0§0§c§8§f§f  * §fДонат §x§F§F§7§E§5§Fᴀ§x§F§F§8§C§6§6ᴅ§x§F§F§9§9§6§Dᴇ§x§F§E§A§7§7§4ᴘ§x§F§E§B§4§7§Bᴛ§x§b§d§c§3§c§7"
+    - "§f"
