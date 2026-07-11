@@ -1,28 +1,35 @@
-# 🎁 SkyMineFree-Plugin
+# SkyMineFree-Plugin
 
-A Minecraft plugin for **skymine.fun** providing players with **daily free rewards** via the `/free` command.
+Ежедневные бесплатные награды для игроков **skymine.fun**. Одна команда — набор предметов раз в сутки. Простой способ удерживать аудиторию и поощрять ежедневный вход.
 
-## 📋 Description
+## Использование
 
-A simple but player-friendly plugin that lets players claim daily free items and bonuses. Helps keep the player base engaged with consistent daily rewards.
+```
+/free
+```
 
-## 🛠️ Tech Stack
+Награда выдаётся один раз в 24 часа. Кулдаун привязан к игроку и сохраняется после перезаходов. Попытка забрать повторно — получит сообщение с оставшимся временем ожидания.
 
-- **Java** — core language
-- **Bukkit / Spigot / Paper API** — Minecraft plugin framework (1.16+)
+## Настройка
 
-## ✨ Features
+Все параметры — в `plugins/SkyMineFree-Plugin/config.yml`:
+- список предметов и их количество
+- текст сообщений при получении и при кулдауне
 
-- `/free` command for daily item claims
-- Configurable reward items and amounts
-- Cooldown system (one claim per day per player)
-- Supports all item types via config
-- Lightweight with no external dependencies
+Изменения применяются после `/reload` или рестарта сервера.
 
-## 🚀 Installation
+## Установка
 
-1. Place JAR in `plugins/` folder
-2. Restart server
-3. Configure rewards in `config.yml`
+1. Скопируйте `.jar` в папку `plugins/`
+2. Перезапустите сервер
+3. Откройте `plugins/SkyMineFree-Plugin/config.yml`
+4. Настройте список наград под ваш сервер
 
-> Requires: Paper/Spigot 1.16+
+## Стек
+
+- **Java** + **Bukkit / Spigot / Paper 1.16+**
+- Внешних зависимостей нет
+
+---
+
+**Автор:** [@marensovich](https://github.com/marensovich) · Сервер: [skymine.fun](https://skymine.fun)
